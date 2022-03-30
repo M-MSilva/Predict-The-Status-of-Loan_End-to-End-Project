@@ -4,7 +4,7 @@
 
 ## Important notes about the project
 
-This project was built with numerous tools and technologies, this is a summary document. Therefore, if you want to obtain more statistical and computational information, see [Google Colaboratory](https://github.com/M-MSilva/Predict-The-Status-of-Loan-End-to-End-Project/blob/master/ColabProject/Loan_Application_Forecast_End_to_End_Project.ipynb), to read about the conclusions found about the project, analyze the [Report](https://github.com/M-MSilva/Predict-The-Status-of-Loan-End-to-End-Project/blob/master/Report/Loan_Project_M_MSilva.pdf). Access the application created in [Web App](https://loan-predict-mm.herokuapp.com/). 
+This project was built with numerous tools and technologies, this is a summary document. Therefore, if you want to obtain more statistical and computational information see [Google Colaboratory](https://github.com/M-MSilva/Predict-The-Status-of-Loan-End-to-End-Project/blob/master/ColabProject/Loan_Application_Forecast_End_to_End_Project.ipynb), to read about the conclusions found about the project, analyze the [Report](https://github.com/M-MSilva/Predict-The-Status-of-Loan-End-to-End-Project/blob/master/Report/Loan_Project_M_MSilva.pdf). Access the application created in [Web App](https://loan-predict-mm.herokuapp.com/). 
 
 ## About this project
 
