@@ -43,7 +43,8 @@ This project was developed to be part of my personal portfolio and served both t
 ### Initial Requirements
 
 The application is already running and it is not necessary to install anything on your machine, however, if you want to run the application locally, you must install the  [Python](https://www.python.org/downloads/release/python-390/) language on your machine. In addition, you must have the libraries listed below on your machine.
-### Contruído Com
+
+### Built With
 
 * [Pandas 1.4.1](https://pypi.org/project/pandas/);
 * [Imblearn 0.0](https://pypi.org/project/imblearn/);
@@ -52,6 +53,9 @@ The application is already running and it is not necessary to install anything o
 * [Streamlit 1.6.0](https://pypi.org/project/streamlit/)
 * [scikit-learn 1.0.2](https://pypi.org/project/scikit-learn/)
 
+Hosted In :
+
+* heroku
 
 
 ### Running the Code
