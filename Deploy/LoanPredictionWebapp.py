@@ -10,10 +10,14 @@ import pickle
 import pandas as pd
 import streamlit as st
 import preprocessing as pre
-#import statements as ifs
 
 
-loaded_model = pickle.load(open('trained_model.sav','rb'))
+
+#loaded_model = pickle.load(open('trained_model.sav','rb'))
+
+#we found where the file trained_model.sav is
+current_directory = Path(__file__).parent #Get current directory
+loaded_model = open(os.path.join(current_directory, 'trained_model.sav'), 'rb') #rb = read bytes because we are reading the file
 
 
 
@@ -71,7 +75,7 @@ def code():
     Condition = ''
     
     #creating a button for prediction
-    if st.button('Loan Test Result'):
+    if st.button('My Eligibility Is?'):
         Condition = Loan_prediction(df_prepared)
     
     st.success(Condition)
