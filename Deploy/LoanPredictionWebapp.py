@@ -18,7 +18,10 @@ import os
 
 #we found where the file trained_model.sav is
 current_directory = Path(__file__).parent #Get current directory
-loaded_model = open(os.path.join(current_directory, 'trained_model.sav'), 'rb') #rb = read bytes because we are reading the file
+file = open(os.path.join(current_directory, 'trained_model.sav'), 'rb') #rb = read bytes because we are reading the file
+
+#read the trained_model.sav file
+loaded_model = pickle.load(file)
 
 
 
