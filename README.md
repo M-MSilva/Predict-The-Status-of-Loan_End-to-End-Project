@@ -48,14 +48,16 @@ The application is already running and it is not necessary to install anything o
 
 * [Pandas 1.4.1](https://pypi.org/project/pandas/);
 * [Imblearn 0.0](https://pypi.org/project/imblearn/);
-* [pickle-mixin 1.0.2](https://pypi.org/project/pickle-mixin/)
-* [numpy 1.22.2](https://pypi.org/project/numpy/)
-* [Streamlit 1.6.0](https://pypi.org/project/streamlit/)
-* [scikit-learn 1.0.2](https://pypi.org/project/scikit-learn/)
+* [pickle-mixin 1.0.2](https://pypi.org/project/pickle-mixin/);
+* [numpy 1.22.2](https://pypi.org/project/numpy/);
+* [Streamlit 1.6.0](https://pypi.org/project/streamlit/);
+* [scikit-learn 1.0.2](https://pypi.org/project/scikit-learn/);
+* [seaborn 0.11.2](https://pypi.org/project/seaborn/0.11.2)
+* [Matplotlib 3.2.2](https://pypi.org/project/matplotlib/3.2.2/).
 
 Hosted In :
 
-* heroku
+* Streamlit
 
 
 ### Running the Code
@@ -79,6 +81,12 @@ pip install pandas==1.4.1
 ```
 ```bash
 pip install imblearn==0.0
+```
+```bash
+pip install matplotlib==3.2.2
+```
+```bash
+pip install seaborn==0.11.2
 ```
 done, go to the Deploy folder and type:
 
